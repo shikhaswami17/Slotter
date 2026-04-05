@@ -1,0 +1,110 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#2c3c53"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <TextView
+                android:id="@+id/enameenrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Event Name"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:id="@+id/ecreatorenrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Event Creator"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:id="@+id/eventDescriptionenrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Description"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/ecodeenrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Event Code"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:id="@+id/startDateenrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Start Date"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:id="@+id/endDateenrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="End Date"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:inputType="textPersonName"/>
+
+
+            <Button
+                android:id="@+id/btn_enroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#009a9a"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="24dp"
+                android:onClick="enrl"
+                android:text="Enroll"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#2c3c53"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <EditText
+                android:id="@+id/etxt_uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Username"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName"/>
+
+
+            <EditText
+                android:id="@+id/etxt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/etxt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/etxt_cno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Contact No."
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="phone"/>
+
+            <EditText
+                android:id="@+id/etxt_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Password"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:layout_marginBottom="16dp"
+                android:inputType="textPassword"/>
+
+            <EditText
+                android:id="@+id/etxt_cpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#009a9a"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="24dp"
+                android:onClick="Signup"
+                android:text="signup"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already Registered? Login"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:onClick="login"
+                android:layout_marginBottom="24dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

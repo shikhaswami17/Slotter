@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "103789027058",
+    "firebase_url": "https://slotter-b741b.firebaseio.com",
+    "project_id": "slotter-b741b",
+    "storage_bucket": "slotter-b741b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103789027058:android:a3de1de705e723b8",
+        "android_client_info": {
+          "package_name": "com.example.android.slotter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103789027058-p6mkegkdro98um96n4pdheamco11h34p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.slotter",
+            "certificate_hash": "e3e0901a9e7da9398db34fb8bb903fc899adb97b"
+          }
+        },
+        {
+          "client_id": "103789027058-fs5dtsj712n4rpm22vdj79ao47i5jlvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYS3EoF-_mGvlJZrdR6hBQW51B4K1FdTg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103789027058-fs5dtsj712n4rpm22vdj79ao47i5jlvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
